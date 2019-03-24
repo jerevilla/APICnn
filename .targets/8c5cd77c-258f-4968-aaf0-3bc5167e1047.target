@@ -1,0 +1,84 @@
+type: bluemix
+server:
+  displayName: US South
+  name: us-south
+  host: apimanager.us-south.apiconnect.cloud.ibm.com
+org:
+  id: 5c97c3cf0cf25013612de66c
+  name: revillajairogmailcom-dev
+  displayName: revilla.jairo@gmail.com (dev)
+  orgType: apiProvider
+  status: active
+  advPortalOverride: true
+  extUaaAuthenticated: false
+  requiresSSLClientCertCheck: false
+  dormant: false
+  url: >-
+    https://apimanager.us-south.apiconnect.cloud.ibm.com/v1/orgs/5c97c3cf0cf25013612de66c
+  externalOrgId: a28cb95f-bb35-4097-ba97-3bf30ce8c9aa
+  externalInviteOverride: 'https://console.bluemix.net/apis/catalog/invitation?env_id=ibm:yp:us-south'
+  externalSpaceId: a28cb95f-bb35-4097-ba97-3bf30ce8c9aa
+  externalNativeOrgId: b3a092ea-34ff-471c-97f3-79ae5457024f
+  bluemix:
+    inviteUri: 'https://console.bluemix.net/apis/catalog/invitation?env_id=ibm:yp:us-south'
+    organization: b3a092ea-34ff-471c-97f3-79ae5457024f
+    space: a28cb95f-bb35-4097-ba97-3bf30ce8c9aa
+catalog:
+  id: 5c97c3d00cf25013612de678
+  orgId: 5c97c3cf0cf25013612de66c
+  name: Sandbox
+  shortName: sb
+  owner:
+    id: 5c7b174c0cf2d9c4addacf65
+    username: revilla.jairo@gmail.com
+    context: apimanager
+    idpId: 58341db4e63b1219f0f068d1
+    email: revilla.jairo@gmail.com
+    firstName: ''
+    lastName: ''
+    status: ACTIVE
+    lastLoginTime: '2019-03-24T17:44:13.353+0000'
+    url: >-
+      https://apimanager.us-south.apiconnect.cloud.ibm.com/v1/users/5c7b174c0cf2d9c4addacf65
+  apiCenter: false
+  portalType: BASIC
+  portalUrl: 'https://developer.us.apiconnect.ibmcloud.com/revillajairogmailcom-dev/sb'
+  advPortalUrl: 'https://sb-revillajairogmailcom-dev.developer.us.apiconnect.ibmcloud.com'
+  gatewayType: DataPowerGateway
+  gwServices:
+    - id: PRODAPIC_APIMGMT_GATEWAY
+      endpointUrl: >-
+        https://api.us-south.apiconnect.appdomain.cloud/revillajairogmailcom-dev/sb
+  idp: 5c97c3d30cf25013612de679
+  idps:
+    - 5c97c3d30cf25013612de679
+  availableRoles:
+    - developer
+    - viewer
+  default: false
+  autoDeploy: true
+  restrictedDeployment: false
+  invitationEnabled: true
+  selfSignUpEnabled: true
+  spaceEnabled: false
+  spaceIds:
+    - 5c97c3d30cf25013612de681
+  testAppEnabled: true
+  testAppCredentials:
+    clientId: 16a42b27-bd17-43e5-8634-7c2c39782016
+    clientSecret: rX1gK6vK1wC8vB2cT7mM8bE2cJ4wT5sL8gF3pF7nF2pQ2gK2dO
+  createdAt: '2019-03-24T17:52:19.476+0000'
+  updatedAt: '2019-03-24T17:52:19.476+0000'
+  createdBy: apim-ops@wwpdl.vnet.ibm.com
+  updatedBy: apim-ops@wwpdl.vnet.ibm.com
+  url: >-
+    https://apimanager.us-south.apiconnect.cloud.ibm.com/v1/orgs/5c97c3cf0cf25013612de66c/environments/5c97c3d00cf25013612de678
+  applicationLifecycleEnabled: false
+  productDeploymentApprovalRequiredStates: []
+  orgName: revillajairogmailcom-dev
+space:
+  none: true
+app:
+  none: true
+id: 8c5cd77c-258f-4968-aaf0-3bc5167e1047
+target: 1.0.0
